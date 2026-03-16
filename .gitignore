@@ -1,0 +1,32 @@
+# --- Python Clutter ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+.env
+
+# --- Data & Logs (CRITICAL for large files) ---
+# Ignore the actual large NEM12 source files
+*.csv
+*.txt
+*.dat
+!sample_data.csv  # Optional: Let one small sample file through for testing
+
+# Ignore output/export folders
+output/
+exports/
+logs/
+*.log
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
