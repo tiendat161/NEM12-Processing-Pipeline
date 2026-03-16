@@ -11,8 +11,8 @@ venv/
 # Ignore the actual large NEM12 source files
 *.csv
 *.txt
-!log.txt          # Keep initial log file for reference
-!sample_data.csv  # Optional: Let one small sample file through for testing
+!log.txt                   # Keep initial log file for reference
+!data/raw/sample_data.csv  # Optional: Let one small sample file through for testing
 
 # Ignore output/export folders
 output/
